@@ -10,3 +10,34 @@ CPU:i3-9100
 硬盘:Intel660p 500g
 
 BIOS版本：F14a
+
+CFG lock:缺失，在config中已经添加解锁
+
+BIOS参数设置：
+Fast Boot : Disabled
+
+LAN PXE Boot Option ROM : Disabled
+
+Storage Boot Option Control : UEFI
+
+Security Device Support : Disable
+
+Network Stack : Disabled
+
+Legacy USB Support : Enabled (必须开启)
+
+XHCI Hand-off : Enabled (必须开启，不然开不了机)
+
+Vt-d : Disabled
+
+Wake on LAN Enable : Disabled
+
+IOAPIC 24-119 Entries : Enabled
+
+
+*纯核显设置：
+Initial Display Output : IGFX
+
+Integrated Graphics : Enabled
+
+DVMT Pre-Allocated :128M
