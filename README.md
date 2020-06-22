@@ -7,7 +7,8 @@
 配置清单：
 CPU:i3-9100 
 内存:ddr4 8g*2 3200(OC)
-硬盘:Intel660p 500g
+硬盘：Intel660p 500g
+网卡:BCM94360cs2
 
 BIOS版本：F14a
 
