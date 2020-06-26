@@ -1,4 +1,4 @@
-# Z370N-wifi-OC0.5.9
+# Z370N-wifi-OC-0.5.9
 1.此efi文件为纯核显版本
 2.视频输出接口请用DP或者HDMI2.0接口 HDMI接口暂时没有修复
 3.本efi根据OC-0.5.9版本源文件进行修改，根据OpenCore Guide Book规则进行创建
