@@ -1,0 +1,23 @@
+本解锁教程根据B站Up主：大头蔡Cass 视频提供
+视频地址：https://www.bilibili.com/video/BV1ka4y1x7Z2
+
+1.请将3个必要文件解压准备好
+2.切换到windows系统下
+3.下载对应的主板bios（压缩文件请解压）
+4.打开UEFITool
+5.file>open image file，选择bios文件
+6.使用“Ctrl+F”搜索  选择“GUID”“Header only”搜索的关键词：899407D799FE43D89A2179EC328CAC21
+7.双击搜索结果，在定位“setup”上单击右键>“Extract as is...”,保存
+8.打开IFR，加载刚才导出的文件，变成txt文件
+9.打开txt文件，搜索“CFG”
+10.在“CFG Lock.....(VarOffset/VarName)”后面有 五位数值（例如：0x5c1）记住数值
+11.制作修改bios的启动盘，使用文件中的“bootx64.efi”
+12.格式化u盘，文件系统为FAT32
+13.u盘下创建文件“EFI>BOOT”
+14.在BOOT文件夹下夹加入“bootx64.efi”
+15.重启电脑，U盘启动
+16.在grub>后面输入“setup_var 刚才查询的数值”（例如：setup_var 0x5c1）
+17.返回的数值是0x01证明未解锁，0x00为已解锁
+18.输入“setup_var 刚才查询的数值 0x00”（例如：setup_var 0x5c1 0x00）
+19.ctrl+alt+del重启
+20.完成CFG解锁
