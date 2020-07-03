@@ -12,11 +12,11 @@ CPU:i3-9100
 屏幕：ASUS MG248 1080p （未开启HIDPI）
 
 
-BIOS版本：F14a
+BIOS版本：F14a(V0.1-0.3)
+BIOS版本：F13(V0.4-now)
 
 
-CFG lock:缺失(V0.1)，在config中已经添加解锁 
-CFG lock:已经打开(V0.4)，在config中已经关闭解锁，详情请根据文件 解锁bios中CFG lock操作说明书.txt 进行操作，或者自行打开 config.plist 进行解锁开关
+CFG lock:缺失，在config中已经添加解锁 
 
 
 BIOS参数设置： 
